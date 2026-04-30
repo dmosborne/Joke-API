@@ -1,0 +1,71 @@
+
+body {
+min-height: 100vh;
+background-color: rgb(201, 228, 225);
+display: grid;
+align-items: center;
+place-items: center;
+flex-direction:column;
+padding-top: 2rem;
+padding-bottom: 2rem;
+box-sizing: border-box;
+}
+
+:root {
+
+    --card-height: 65vh;
+    --card-weight: calc(var(--card-height)/1.5);
+}
+
+form {
+    align-items: center;
+}
+.card {
+    align-items: center;
+    }
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 5rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+.emoji {
+    text-align: center;
+    align-items: center;
+}
+
+
+a {
+    color: #212534;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.user {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-family: 'Inter, cursive';
+    text-align: center;
+}
