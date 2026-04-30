@@ -45,8 +45,9 @@ h2 {
     align-items: center;
 }
 
-p {
-    font-size: 1.4rem;
+.joke {
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 .emoji {
