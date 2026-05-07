@@ -19,7 +19,7 @@ app.post("/get-joke", async (req, res) => {
     const username = req.body.username;
     
     try {
-        const result = await axios.get("https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit);
+        const result = await axios.get("https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit");
 
         let joke;
 
